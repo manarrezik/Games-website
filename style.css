@@ -1,0 +1,171 @@
+body{
+    
+    background: linear-gradient(to top, #42678d, #95a5a6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 1000px){
+
+
+    .cercle1 {
+        margin-left: clamp(30rem, 60%, 80rem);
+        width: clamp(1.6rem, 9rem, 30rem);
+        height: clamp(1.6rem, 9rem, 30rem);
+    }
+
+    .cercle2 {
+        margin-left: 16rem;
+        transform: translateX(100%);
+    }
+
+    .cercle-content {
+        height: 100%;
+        font-size: 5rem;
+    }
+    .img{
+        max-width: clamp(180px, 12%, 200px);
+    }
+
+
+}
+
+.sub-titles{ 
+    color: #4d5b69;
+    margin: clamp(10rem, 2vw, 20rem);
+    font-size: clamp(1.4rem, 2.6vw, 6rem);
+    padding: 2px 24%;
+    font-family: 'Times New Roman', serif;
+}
+
+hr{
+    border-color: #42678d;
+
+}
+
+#title{
+    text-align: center;
+    color:#244565;
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+}
+
+.description{
+    text-align: center;
+    color: #2c2c2c;
+    font-family:'Lucida Grande';
+    font-size: 40px;
+    padding: 0.5px 5%;
+    font-family: 'Times New Roman', Times, serif
+    
+
+    
+}
+span{
+    color: #244565;
+}
+
+.cercle1 {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-left:10%;
+    background-color: #244565;
+    border: solid 2px #244565;
+}
+
+.cercle2{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #244565;
+    border: solid 2px #244565;
+    margin-left: 58%;
+    margin-bottom: 0%;
+    transform: translateY(-100%);
+}
+
+.cercle-content {
+    color: white;
+    font-size: 3rem;
+    margin:20%;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.img{
+    max-width: clamp(100px, 20%, 200px);
+    display: block;
+    margin: 1rem auto;
+    
+}
+
+#footer{
+    
+    margin-top: 2rem auto;
+    text-align: center;
+    color: white;
+    padding: 0rem;
+}
+
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #42678d;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #78aee4;;
+}
+
+/* Update these styles in your style.css file */
+
+.categories-nav {
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Increased from 20px to 40px */
+    margin-bottom: 30px;
+    padding: 20px 0; /* Added padding for more vertical space */
+}
+
+.category-btn {
+    padding: 12px 30px; /* Increased padding for larger buttons */
+    font-size: 1.1rem; /* Slightly larger font size */
+    background-color: #f0f0f0;
+    color: #2c2c2c;
+    border: none;
+    border-radius: 25px; /* Increased border-radius for more rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Added subtle shadow */
+    text-decoration: none;
+}
+
+
+.category-btn:hover {
+    background-color:#42678d; ;
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+
+/* Add this media query for responsiveness */
+@media (max-width: 768px) {
+    .categories-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Reduced gap for mobile view */
+    }
+
+    .category-btn {
+        width: 80%;
+        max-width: 300px; /* Maximum width for buttons on smaller screens */
+    }
+}
