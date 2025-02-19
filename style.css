@@ -36,7 +36,7 @@ body{
     color: #4d5b69;
     margin: clamp(10rem, 2vw, 20rem);
     font-size: clamp(1.4rem, 2.6vw, 6rem);
-    padding: 2px 24%;
+    padding: 0.5px 25%;
     font-family: 'Times New Roman', serif;
 }
 
@@ -54,10 +54,12 @@ hr{
 .description{
     text-align: center;
     color: #2c2c2c;
-    font-family:'Lucida Grande';
-    font-size: 40px;
-    padding: 0.5px 5%;
-    font-family: 'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    padding: 0.1% 5%;
+    margin: 0.1rem;
+    
+    
     
 
     
@@ -168,4 +170,34 @@ span{
         width: 80%;
         max-width: 300px; /* Maximum width for buttons on smaller screens */
     }
+}
+.sub-titles1{ 
+    color: #4d5b69;
+    margin: clamp(5rem, 2.5rem, 2.5rem);
+    font-size: clamp(1.4rem, 2.6vw, 6rem);
+    padding: 0.1px 25%;
+    font-family: 'Times New Roman', serif;
+}
+.sub-titles2{ 
+    color: #4d5b69;
+    margin: clamp(5rem, 2.5rem, 2.5rem);
+    font-size: clamp(1.4rem, 2.6vw, 6rem);
+    padding: 0.1px 25%;
+    font-family: 'Times New Roman', serif;
+}
+.games-grid{
+    
+    display: flex; /* Enable flexbox for the container */
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  gap: 20px; /* Adjust spacing between items */
+}
+.game-card{
+    display: flex; /* Enable flexbox for each game item */
+   flex-direction: column;
+  flex: 1 0 300px; /* Example: Each item takes at least 300px, can grow, but will wrap */
+  padding: 20px;
+  border: 1px solid #ccc; /* Optional border */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
