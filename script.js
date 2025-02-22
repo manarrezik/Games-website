@@ -9,14 +9,17 @@ document.addEventListener('DOMContentLoaded', function() {
         gamesCircle.addEventListener('click', function() {
             window.location.href = 'games.html';
         });
+        gamescircle1.addEventListener("click", function() {
+            window.location.href = "profile-card.html";
+        });
         
         // Hover effects
         gamesCircle.addEventListener('mouseenter', function() {
-            this.style.transform = 'scale(1.05)';
+            
             this.style.transition = 'transform 0.3s ease';
         });
         
-        gamesCircle.addEventListener('mouseleave', function() {
+        gamescircle1.addEventListener('mouseleave', function() {
             this.style.transform = 'scale(1)';
         });
     }
