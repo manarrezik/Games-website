@@ -37,13 +37,25 @@ body{
     margin-bottom: 15px; /* Reduced from default */
     color: #34495e;
     font-size: 2.5rem;
-    margin-left: 370px;
+    margin-left: 450px;
 }
 #title1 {
     margin-bottom: 15px; /* Reduced from default */
     color: #34495e;
     font-size: 2.5rem;
     margin-left: 50px;
+}
+#title {
+    margin-bottom: 15px; /* Reduced from default */
+    color: #34495e;
+    font-size: 2.5rem;
+    margin-left: 450px;
+}
+#title2{
+    margin-bottom: 15px; /* Reduced from default */
+    color: #34495e;
+    font-size: 2.5rem;
+    margin-left: 390px;
 }
 
 hr {
@@ -273,6 +285,13 @@ span{
     margin: clamp(1rem, 2rem,4rem);
     font-size: clamp(2rem, 2.6vw, 6rem);
     padding: 1px 23%;
+    font-family: 'Times New Roman', serif;
+}
+.sub-titles3{ 
+    color: #4d5b69;
+   
+    font-size: clamp(2rem, 2.6vw, 6rem);
+    margin-left: 250px;
     font-family: 'Times New Roman', serif;
 }
 .games-grid{
